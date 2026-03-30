@@ -1,0 +1,91 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between; /* título de um lado, menu do outro */
+    align-items: center; /* alinhamento vertical */
+    padding: 20px;
+    background: #0dad1a;
+    color: white;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    gap: 20px; /* espaço entre links */
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+/* BANNER */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* centraliza horizontal */
+    height: 200px;
+    background: #eee;
+    text-align: center;
+    gap: 15px;
+}
+
+/* MAIN (layout principal) */
+.main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* FILTROS */
+.filtros {
+    display: flex;
+    flex-direction: column; /* botões em coluna */
+    gap: 10px;
+    width: 200px;
+}
+
+/* LISTA DE EVENTOS */
+.eventos {
+    display: flex;
+    flex-wrap: wrap; /* permite quebrar linha */
+    gap: 20px;
+    flex: 1; /* ocupa o resto do espaço */
+}
+
+/* CARDS */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    background: rgb(132, 184, 9);
+}
+
+/* BOTÃO DO CARD */
+.card button {
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center; /* centraliza */
+    align-items: center;
+    padding: 20px;
+    background: #0dad0d;
+    color: rgb(255, 255, 255);
+}
